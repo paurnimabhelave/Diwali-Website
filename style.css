@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ffb74d, #ff8a65);
+    color: #4e342e;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffe0b2;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff7043;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d84315;
+}
+.h1{
+    position: relative;
+    left: 800px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #6d4c41;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    color: #8559f4;
+}
+
+.hero p {
+    font-size: 1em;
+    color: #5d4037;
+}
+
+.explore-btn {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.explore-btn:hover {
+    background-color: #d84315;
+    transform: scale(1.05);
+}
+
+.wishes-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.wish-card {
+    background-color: #fff8e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 90%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.wish-card:hover {
+    transform: scale(1.05);
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+form {
+    background-color: #e89d13;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d84315;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #ff7043;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #d84315;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 0.9em;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .explore-btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        margin: 0 3px;
+        font-size: 0.8em;
+    }
+
+    .hero h2 {
+        font-size: 1.3em;
+    }
+
+    .hero p {
+        font-size: 0.8em;
+    }
+
+    .explore-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
